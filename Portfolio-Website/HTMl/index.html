@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src=".../JavaScript/index.js"></script>
+
+    <script src=".../JavaScript/typed.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span> </div>
+            <div class="menu">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+
+            </div>
+        </nav>
+
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>Ankur Kasaudhan</h1>
+            <p>And I am a <span id="ani" style="color: #e74c3c;">Android & Web Developer </span> </p>
+            <button class="c-btn">Hire me</button>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who I am?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="../Images/about.jpg">
+            </div>
+
+            <div class="about-right-col">
+
+                <p id="p-title">Hello, I'm Ankur $ I'm a Developer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est itaque laboriosam voluptatum natus. Aut,
+                    sapiente voluptates dolor doloribus quasi ipsa similique dolorem esse, nisi officiis ex maxime,
+                    atque a cum?</p>
+
+                <button class="c-btn">Download CV</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: white;">Skills</h1>
+            <p>Who I am?</p>
+        </div>
+
+        <div class="skill-row">
+
+            <div class="skills-left-col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus et soluta. Similique
+                    voluptates velit autem totam dolorem tempora quisquam, libero molestias ad laudantium aperiam
+                    expedita, ea nam, doloribus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque, sapiente quo? Possimus id voluptate quae.</p>
+                <button class="c-btn">Read More</button>
+            </div>
+            <div class="skills-righ-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+
+                    <p>
+                        <span>JavaScript</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>Android Development</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>JAVA programming</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+
+        <div class="section-info">
+            <h1>Services</h1>
+            <p>What We Provide</p>
+        </div>
+
+        <div class="services-row">
+            <div class="services-box">
+                <img src="../Images//b2.png" alt="" srcset="">
+                <h1>Web Design</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui enim minima reiciendis quae
+                    doloribus quo tempora explicabo quidem voluptates!</p>
+            </div>
+
+            <div class="services-box">
+                <img src="../Images//b2.png" alt="" srcset="">
+                <h1>Web Development</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui enim minima reiciendis quae
+                    doloribus quo tempora explicabo quidem voluptates!</p>
+            </div>
+            <div class="services-box">
+                <img src="../Images//b2.png" alt="" srcset="">
+                <h1>App Development</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias qui enim minima reiciendis quae
+                    doloribus quo tempora explicabo quidem voluptates!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-info">
+            <h1 style="color: white;">Getting Touch</h1>
+            <p style="color: black;">We are Available</p>
+        </div>
+
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="../Images/b3.png" alt="" srcset="">
+            </div>
+            <div class="contact-right-col">
+
+                <form>
+                    <h2>Connect with us</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                    <br>
+                    <button class="c-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <h2>Developed by Ankur Kasaudhan</h2>
+        <img src="../Images/icon.png" width="100">
+    </section>
+
+    <!-- <script src="../JavaScript/jquery.ripples-min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $('header').ripples({
+                dropRadius: 20,
+                perturbance: 0.03,
+            });
+        });
+    </script> -->
+    <script>
+        let animate = new Typed('#ani',{
+            strings:["Fromnt End Developer","Android Developer","Java Programmer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true,
+        })
+    </script>
+
+</body>
+
+</html>
